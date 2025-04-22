@@ -1443,10 +1443,22 @@ button.bttn-new-a:focus {
   right: 0;
   opacity: 1;
 }
+@media (max-width: 768px) {
+    .bttn-new-a {
+      font-size: 16px;
+      padding: 10px 16px;
+      max-width: 220px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .bttn-new-a {
+      font-size: 14px;
+      padding: 10px 12px;
+      max-width: 90%;
+    }
+  }
 
-.pricing-item:hover .pricing-deco{
-	background: #ee902f;
-}
 
 
 
