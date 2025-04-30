@@ -104,9 +104,11 @@ h6 {
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
+    font-family: 'Futura', sans-serif;
     line-height: 120% !important;
     color: #121212;
     margin: 0
+
 }
 
 h1 {
